@@ -1,0 +1,37 @@
+﻿{
+  "cli": {
+    "pass": "DCS%vzF#7HE_7y4w",
+    "expiredays": "99999"
+  },
+  "config": {
+    "vCenterServer": "vcenter2.lab.ivoxy.com",
+    "vCenterUsername": "chris.crow",
+    "vCenterPassword": "Go#Sand!",
+    "NSXManager": "10.7.72.95",
+    "NSXPassword": "Go#Sand!",
+    "datacenter": "IVOXY",
+    "folder": "traininglabs",
+    "datastore": "TinTri",
+    "cluster": "cluster1",
+    "publicdvpg": "public-199"
+  },
+  "labs": [
+    {
+      "ip": "199.21.69.123",
+      "student": "chris"
+    },
+    {
+      "ip": "199.21.69.124",
+      "student": "dave"
+    }
+  ],
+  "vmlist": [
+    "WinDemo1"
+  ],
+  "externalgateway": "199.21.69.65",
+  "labname": "demo1",
+  "gateway": "192.168.2.1",
+  "externalallow": "131.191.106.243",
+  "internalsubnet": "192.168.2.0/24",
+  "internaldmz": "192.168.2.10"
+}

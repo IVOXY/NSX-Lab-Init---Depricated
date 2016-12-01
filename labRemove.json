@@ -1,0 +1,15 @@
+{
+  "vmstring": "demo1-*-",
+  "vmfolder": "traininglabs",
+  "edgerouters": [
+    "edge-16",
+    "edge-17"
+  ],
+  "config": {
+    "vCenterServer": "vcenter2.lab.ivoxy.com",
+    "vCenterUsername": "chris.crow",
+    "vCenterPassword": "Go#Sand!",
+    "NSXManager": "10.7.72.95",
+    "NSXPassword": "Go#Sand!"
+  }
+}

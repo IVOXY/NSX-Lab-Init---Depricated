@@ -1,0 +1,22 @@
+﻿cli
+  enabled = true
+  user = admin
+  pass = Go#Sand!Go#Sand!
+  expiredays = 99999
+config
+  vCenterServer = vcenter2.lab.ivoxy.com
+  vCenterUsername = chris.crow
+  vCenterPassword = Go#Sand!
+  NSXManager = 10.7.72.95
+  NSXPassword = Go#Sand!
+labs[0]
+  ip = 199.21.69.123
+  student = chris 
+labs[1]
+  ip = 199.21.69.124
+  student = dave
+  virtualwire = demo1-dave
+vmlist[] s = WinDemo1
+externalgateway = 199.21.69.65
+labname = demo1
+gateway = 192.168.2.1
